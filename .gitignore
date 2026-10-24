@@ -1,0 +1,35 @@
+# MPLAB X
+build/
+dist/
+debug/
+nbproject/private/
+*.o
+*.p1
+*.d
+*.hex
+*.elf
+*.cof
+*.map
+*.sdb
+*.sym
+*.lst
+*.as
+*.cmf
+*.hxl
+*.mum
+*.pre
+*.rlf
+*.obj
+*.i
+
+# Visual Studio / .NET
+.vs/
+bin/
+obj/
+*.user
+*.suo
+packages/
+
+# OS
+Thumbs.db
+.DS_Store
