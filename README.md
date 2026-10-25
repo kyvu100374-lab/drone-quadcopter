@@ -84,10 +84,10 @@ Giá trị bắt đầu lấy từ kết quả dò PID trên khung treo tự do 
 |---|---|---|---|
 | Roll / Pitch (góc) | Kp | 3.8 | **19** |
 | | Ki | 0.8 | **4** |
-| | Kd | 0.65 | **3** (3.25 làm tròn, tương đương 0.6) |
+| | Kd | 0.65 | **3** |
 | Yaw (tốc độ góc) | Kp | 1 | **10** |
-| | Ki | 0.0 | **0** (0.2 làm tròn xuống, bước nhỏ nhất của thang là 0.1) |
-| | Kd | 0.0 | **0** (0.5, bước nhỏ nhất của thang là 0.1) |
+| | Ki | 0.0 | **0** |
+| | Kd | 0.0 | **0** |
 
 Ghi chú:
 - Ở v1, khâu I của Roll/Pitch ban đầu bị khóa (Ki = 0) vì nhiễu rung động cơ gây bão hòa tích phân, sau đó mới chỉnh lại Ki = 0.8.
